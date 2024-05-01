@@ -1,0 +1,31 @@
+/* SidebarMenu.css */
+.sidebar-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #cc2727; /* Adjust background color as needed */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+  transition: transform 0.3s ease;
+  transform: translateX(-100%); /* Initially hide the sidebar off the screen */
+}
+
+.sidebar-menu.visible {
+  transform: translateX(0); /* Slide the menu into view when visible */
+}
+
+.sidebar-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ca1313; /* Add a border between menu items */
+  color: #461111; /* Adjust text color */
+}
+
+.sidebar-menu ul li:last-child {
+  border-bottom: none; /* Remove border for the last menu item */
+}

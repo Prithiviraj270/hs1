@@ -1,0 +1,74 @@
+
+.header-container {
+    width: 100%; 
+    max-width: 480px; 
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(254, 252, 255);
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .Title{
+    text-align: center;
+    padding: 0px 10px;
+  }
+  
+  .badge-container {
+    width: 100%;
+    max-width: 160px; 
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .custom-badge {
+    background-color: rgb(252, 250, 250);
+    border-radius: 5px;
+    padding: 5px 10px; 
+  }
+
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container button {
+    margin-top: 0%; 
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  
+  .hanger-image {
+    width: 300px;
+    height: auto; 
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .header-container {
+      max-width: 100%; 
+    }
+  
+    .Title{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .badge-container {
+      max-width: 100%; 
+    }
+  }
+  

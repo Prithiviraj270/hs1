@@ -1,0 +1,28 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    background-color: blue;
+  }
+  
+  .logo-container {
+    text-align: center; 
+    background-color: blanchedalmond;
+    border: 2px solid;
+    flex-grow: 1;
+    margin-left: 35px;
+    
+  }
+  
+  .logo {
+    margin: 0;
+  }
+  
+  .go-back-button-container {
+    width: 45px; 
+    padding: 10px;
+    margin-right: -8px;
+  }
+  
+  

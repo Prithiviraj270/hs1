@@ -1,0 +1,47 @@
+.slide-nav-bar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Hide initially */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease;
+}
+
+.slide-nav-bar.open {
+  left: 0; /* Slide in when open */
+}
+
+.toggle-button {
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: rgb(167, 16, 16);
+  cursor: pointer;
+  padding: 10px;
+}
+
+.toggle-button-container{
+  background-color: chartreuse;
+  border: #333 2px solid;
+}
+
+nav {
+  padding-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Add additional styles as needed */

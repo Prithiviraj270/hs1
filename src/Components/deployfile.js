@@ -1,0 +1,1 @@
+firebase deploy --only hosting:hanger-store-2730

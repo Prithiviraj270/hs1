@@ -1,0 +1,44 @@
+.test-entry-container {
+  max-height: 80%;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.task-list-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  top: 0;
+}
+
+.task-table {
+  width: 100%;
+  margin-left: -19px;
+}
+
+.task-table th, .task-table td {
+  text-align: center;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+.task-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.task-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.task-table tbody tr:hover {
+  background-color: #e2e2e2;
+}
+
+.go-back-button-containerOne {
+  text-align:center;
+  margin-top: 10px;
+  margin-left: 2%;
+}
+
+.go-back-button {
+  width: 100%; /* Ensure button takes full width of container */
+}

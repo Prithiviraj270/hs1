@@ -1,0 +1,29 @@
+.test-report-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.test-report-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.test-report-table th,
+.test-report-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.test-report-table th {
+  background-color: #f2f2f2;
+}
+
+.test-report-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.test-report-table tbody tr:hover {
+  background-color: #ddd;
+}

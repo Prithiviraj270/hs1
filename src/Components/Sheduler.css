@@ -1,0 +1,90 @@
+/* TaskSchedulerPage.css */
+
+.task-scheduler-container {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-scheduler-container h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .close-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-container {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .calendar-wrapper .react-calendar {
+    width: 100%;
+  }
+  
+  .task-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .task-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-actions button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .task-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+    .task-scheduler-container {
+      padding: 15px;
+    }
+    
+    .task-scheduler-container h2 {
+      font-size: 18px;
+    }
+    
+    .close-button {
+      font-size: 14px;
+    }
+    
+    .task-input {
+      padding: 3px;
+    }
+    
+    .task-actions button {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  }
+  
